@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.NoTitleBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Text">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextBold" parent="Text">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextLabel">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TableHead" parent="Text">
+        <item name="android:width">75dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="TableItem" parent="Text">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+</resources>

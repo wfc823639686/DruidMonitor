@@ -1,0 +1,7 @@
+.idea*
+.gradle**
+build/*
+app/build/*
+**/*.apk
+**/*.iml
+app/src/androidTest

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/app_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="Class"
+        android:id="@+id/item_spring_class_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_class_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="Method"
+        android:id="@+id/item_spring_method_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_method_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="RunningCount"
+        android:id="@+id/item_spring_runningcount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_runningcount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="ConcurrentMax"
+        android:id="@+id/item_spring_concurrentmax_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_concurrentmax_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="ExecuteCount"
+        android:id="@+id/item_spring_executecount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_executecount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="ExecuteErrorCount"
+        android:id="@+id/item_spring_executeerrorcount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_executeerrorcount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="ExecuteTimeMillis"
+        android:id="@+id/item_spring_executetimemillis_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_executetimemillis_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="JdbcCommitCount"
+        android:id="@+id/item_spring_jdbccommitcount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_jdbccommitcount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="JdbcRollbackCount"
+        android:id="@+id/item_spring_jdbcrollbackcount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_jdbcrollbackcount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="JdbcPoolConnectionOpenCount"
+        android:id="@+id/item_spring_jdbcpoolconnectionopencount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_jdbcpoolconnectionopencount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="JdbcPoolConnectionCloseCount"
+        android:id="@+id/item_spring_jdbcpoolconnectionclosecount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_jdbcpoolconnectionclosecount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="JdbcResultSetOpenCount"
+        android:id="@+id/item_spring_jdbcresultsetopencount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_jdbcresultsetopencount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="JdbcResultSetCloseCount"
+        android:id="@+id/item_spring_jdbcresultsetclosecount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_jdbcresultsetclosecount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="jdbcExecuteCount"
+        android:id="@+id/item_spring_jdbcexecutecount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_jdbcexecutecount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="jdbcExecuteErrorCount"
+        android:id="@+id/item_spring_jdbcexecuteerrorcount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_jdbcexecuteerrorcount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="jdbcExecuteTimeMillis"
+        android:id="@+id/item_spring_jdbcexecutetimemillis_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_jdbcexecutetimemillis_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="jdbcFeeetchRowCount"
+        android:id="@+id/item_spring_jdbcfetchrowcount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_jdbcfetchrowcount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="jdbcUpdateCount"
+        android:id="@+id/item_spring_jdbcupdatecount_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_jdbcupdatecount_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="lastError"
+        android:id="@+id/item_spring_lasterror_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_lasterror_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="lastErrorTime"
+        android:id="@+id/item_spring_lasterrortime_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_lasterrortime_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextBold"
+        android:text="histogram"
+        android:id="@+id/item_spring_histogram_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text"
+        android:text=""
+        android:id="@+id/item_spring_histogram_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+</LinearLayout>
